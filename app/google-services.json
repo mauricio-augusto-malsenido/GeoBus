@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "164523438894",
+    "firebase_url": "https://geobus-88ca7.firebaseio.com",
+    "project_id": "geobus-88ca7",
+    "storage_bucket": "geobus-88ca7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164523438894:android:3ecc2b2c497d0ac6",
+        "android_client_info": {
+          "package_name": "com.mym.geobus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164523438894-1cf95ndsmpnhhs5661skp1doa53atp3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mym.geobus",
+            "certificate_hash": "570941b3607074e6be84199dedd9bbdef4b00f36"
+          }
+        },
+        {
+          "client_id": "164523438894-j7f1sc3kgbgdlrq68eiqgivsa3ihp96m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcresgKz4JfqyK259MzfQw171-frQ3z6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164523438894-j7f1sc3kgbgdlrq68eiqgivsa3ihp96m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

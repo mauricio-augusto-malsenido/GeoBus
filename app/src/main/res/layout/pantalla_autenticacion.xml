@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    tools:context=".PantallaAutenticacion">
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btnLoginGoogle"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="338dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        app:buttonSize="wide"
+        app:colorScheme="light" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/btnLoginFacebook"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginGoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="50dp"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="14sp"
+        facebook:com_facebook_login_text="Ingresar con Facebook"
+        facebook:com_facebook_logout_text="Ingresar con Facebook"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="170dp"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/logo_pantalla_inicio"
+        tools:ignore="ContentDescription" />
+
+</RelativeLayout>

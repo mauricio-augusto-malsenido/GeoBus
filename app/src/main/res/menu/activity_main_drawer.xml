@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todos"
+            android:icon="@drawable/ic_buses"
+            android:title="Todos" />
+        <item
+            android:id="@+id/nav_lineas"
+            android:icon="@drawable/ic_bus"
+            android:title="Lineas" />
+        <item
+            android:id="@+id/L1"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 1"/>
+        <item
+            android:id="@+id/L3"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 3"/>
+        <item
+            android:id="@+id/L4"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 4"/>
+        <item
+            android:id="@+id/L5"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 5"/>
+        <item
+            android:id="@+id/L5SEOC"
+            android:visible="false"
+            android:title="L5 SEOC - El Molino"/>
+        <item
+            android:id="@+id/L6"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 6"/>
+        <item
+            android:id="@+id/L7"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 7"/>
+        <item
+            android:id="@+id/L8"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 8"/>
+        <item
+            android:id="@+id/L9"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 9"/>
+        <item
+            android:id="@+id/L10"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 10"/>
+        <item
+            android:id="@+id/L11"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 11"/>
+        <item
+            android:id="@+id/L12"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 12"/>
+        <item
+            android:id="@+id/L17"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:enabled="false"
+            android:title="Linea 17"/>
+        <item
+            android:id="@+id/L18"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 18"/>
+        <item
+            android:id="@+id/L18H"
+            android:visible="false"
+            android:title="L18 Sentido Horario"/>
+        <item
+            android:id="@+id/L19"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 19"/>
+        <item
+            android:id="@+id/L100"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 100"/>
+        <item
+            android:id="@+id/L101"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 101"/>
+        <item
+            android:id="@+id/L102"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 102"/>
+        <item
+            android:id="@+id/L103"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 103"/>
+        <item
+            android:id="@+id/L105"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 105"/>
+        <item
+            android:id="@+id/L106"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 106"/>
+        <item
+            android:id="@+id/L107"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 107"/>
+        <item
+            android:id="@+id/L109"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 109"/>
+        <item
+            android:id="@+id/L110"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 110"/>
+        <item
+            android:id="@+id/L118"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 118"/>
+        <item
+            android:id="@+id/L121"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 121"/>
+        <item
+            android:id="@+id/L122"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 122"/>
+        <item
+            android:id="@+id/L123"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 123"/>
+        <item
+            android:id="@+id/L124"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 124"/>
+        <item
+            android:id="@+id/L125"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 125"/>
+        <item
+            android:id="@+id/L129"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 129"/>
+        <item
+            android:id="@+id/L130"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 130"/>
+        <item
+            android:id="@+id/L131"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 131"/>
+        <item
+            android:id="@+id/L141"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 141"/>
+        <item
+            android:id="@+id/L142"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea 142"/>
+        <item
+            android:id="@+id/ElProvincial"
+            android:icon="@drawable/ic_arrow_down_black"
+            android:visible="false"
+            android:title="Linea El Provincial"/>
+        <item
+            android:id="@+id/nav_ranking"
+            android:icon="@drawable/ic_ranking"
+            android:title="Ranking"/>
+    </group>
+
+</menu>
