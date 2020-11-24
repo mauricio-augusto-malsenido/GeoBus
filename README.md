@@ -8,5 +8,6 @@ Este sistema se desarrollo utilizando las siguientes tecnologías y herramientas
 - Lenguajes utilizados: Java (App) y NodeJS (Servicio REST)
 - Motor de base de datos local: SQLite
 - Motor de base de datos externa: MongoDB
+- Nube: Google Cloud
 - APIs utilizadas: Google Maps, Autenticación de cuentas de Google y Autenticación de cuentas de Facebook
 - Libreria utilizada para la conexión con servicio Rest: Retrofit
